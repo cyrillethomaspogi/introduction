@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(istitik.png);
+    background-position: center;
+}
+.home{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    border-radius: 45px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.home h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.home h5{
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    font-weight: 100;
+}
+.home p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.home li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.home li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.home li a:hover{
+    color: #b9b9b9;
+}
